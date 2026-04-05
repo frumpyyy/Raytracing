@@ -31,6 +31,8 @@ inline double deg2rad(double degrees) {
 
 #include "colour.h"
 
+#include "Interval.h"
+
 #include "Ray.h"
 
 #include "Vector3.h"
