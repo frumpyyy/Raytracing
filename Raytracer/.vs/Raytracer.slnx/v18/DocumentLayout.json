@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Hittable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Hittable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\HittableList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\HittableList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\MathConstants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\MathConstants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Colour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Interval.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Interval.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -45,6 +29,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Raytracer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Raytracer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Sphere.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Colour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\MathConstants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\MathConstants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Interval.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Raytracer\\Interval.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Ray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,13 +70,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Raytracer.cpp",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Raytracer.cpp",
               "RelativeDocumentMoniker": "Raytracer\\Raytracer.cpp",
               "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Raytracer.cpp",
               "RelativeToolTip": "Raytracer\\Raytracer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-05T12:22:18.851Z",
               "IsPinned": true,
@@ -76,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Raytracer.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Raytracer.h",
               "RelativeDocumentMoniker": "Raytracer\\Raytracer.h",
               "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Raytracer.h",
               "RelativeToolTip": "Raytracer\\Raytracer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-05T12:22:42.825Z",
               "IsPinned": true,
@@ -90,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Vector3.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.h",
               "RelativeDocumentMoniker": "Raytracer\\Vector3.h",
               "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.h",
               "RelativeToolTip": "Raytracer\\Vector3.h",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAG8AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-05T12:44:00.241Z",
               "IsPinned": true,
@@ -104,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Vector3.cpp",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Vector3.cpp",
               "RelativeDocumentMoniker": "Raytracer\\Vector3.cpp",
@@ -118,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HittableList.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\HittableList.h",
               "RelativeDocumentMoniker": "Raytracer\\HittableList.h",
@@ -133,45 +141,86 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Camera.h",
-              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Camera.h",
-              "RelativeDocumentMoniker": "Raytracer\\Camera.h",
-              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Camera.h",
-              "RelativeToolTip": "Raytracer\\Camera.h",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-05T15:08:34.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Hittable.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Hittable.h",
               "RelativeDocumentMoniker": "Raytracer\\Hittable.h",
               "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Hittable.h",
               "RelativeToolTip": "Raytracer\\Hittable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-05T14:18:43.698Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Material.h",
+              "RelativeDocumentMoniker": "Raytracer\\Material.h",
+              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Material.h",
+              "RelativeToolTip": "Raytracer\\Material.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-05T15:59:52.729Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Sphere.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Sphere.h",
               "RelativeDocumentMoniker": "Raytracer\\Sphere.h",
               "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Sphere.h",
               "RelativeToolTip": "Raytracer\\Sphere.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-05T14:21:18.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Camera.h",
+              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Camera.h",
+              "RelativeDocumentMoniker": "Raytracer\\Camera.h",
+              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Camera.h",
+              "RelativeToolTip": "Raytracer\\Camera.h",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-05T15:08:34.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "Raytracer\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\CMakeLists.txt",
+              "RelativeToolTip": "Raytracer\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-05T15:59:52.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Colour.h",
+              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h",
+              "RelativeDocumentMoniker": "Raytracer\\Colour.h",
+              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h",
+              "RelativeToolTip": "Raytracer\\Colour.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-05T13:20:20.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MathConstants.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\MathConstants.h",
               "RelativeDocumentMoniker": "Raytracer\\MathConstants.h",
@@ -184,20 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Colour.h",
-              "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h",
-              "RelativeDocumentMoniker": "Raytracer\\Colour.h",
-              "ToolTip": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Colour.h",
-              "RelativeToolTip": "Raytracer\\Colour.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-05T13:20:20.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Interval.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Interval.h",
               "RelativeDocumentMoniker": "Raytracer\\Interval.h",
@@ -210,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Ray.h",
               "DocumentMoniker": "C:\\Users\\naths\\Documents\\GitHub\\Raytracing\\Raytracer\\Raytracer\\Ray.h",
               "RelativeDocumentMoniker": "Raytracer\\Ray.h",

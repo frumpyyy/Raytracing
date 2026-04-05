@@ -35,6 +35,11 @@ public:
 	double Length() const;
 	double LengthSquared() const;
 
+	bool NearZero()const {
+		auto s = 1e-8;
+		return(std::fabs(i[0]) < s) && (std::fabs(i[1]) < s) && (std::fabs(i[2]) < s);
+	}
+
 	static Vector3 random() {
 		return Vector3(random_double(), random_double(), random_double());
 	}
@@ -110,4 +115,8 @@ inline Vector3 RandomOnHemisphere(const Vector3& normal) {
 		return onUnitSphere;
 	else
 		return -onUnitSphere;
+}
+
+inline Vector3 reflect(const Vector3& v, const Vector3& n) {
+	return v - 2 * Dot(v, n) * n;
 }

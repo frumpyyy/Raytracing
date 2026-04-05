@@ -10,10 +10,13 @@
 
 #include "Vector3.h"
 
+class material;
+
 class hit_record {
 public:
 	point3 m_point;
 	Vector3 m_normal;
+	shared_ptr<material> m_material;
 	double t;
 	bool frontFacing;
 

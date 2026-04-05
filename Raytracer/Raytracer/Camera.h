@@ -7,11 +7,14 @@
 
 #include "Colour.h"
 
+#include "Material.h"
+
 class camera {
 public:
 	double aspect_ratio = 1.0;
 	int image_width = 100;
 	int samples_per_pixel = 10;
+	int max_depth = 10;
 
 	void render(const hittable& world) {
 		initialize();
@@ -24,7 +27,7 @@ public:
 				colour pixel_color(0, 0, 0);
 				for (int sample = 0; sample < samples_per_pixel; sample++) {
 					Ray r = get_ray(i, j);
-					pixel_color += ray_colour(r, world);
+					pixel_color += ray_colour(r, max_depth, world);
 				}
 				WriteColour(std::cout, pixel_samples_scale * pixel_color);
 			}
@@ -40,6 +43,7 @@ private:
 	point3 pixel00_loc;
 	Vector3 pixel_delta_u;
 	Vector3 pixel_delta_v;
+	double reflectance = 0.6;
 
 	void initialize() {
 		image_height = int(image_width / aspect_ratio);
@@ -81,12 +85,20 @@ private:
 		return Vector3(random_double() - 0.5, random_double() - 0.5, 0);
 	}
 
-	colour ray_colour(const Ray& r, const hittable& world) const {
+	colour ray_colour(const Ray& r, int depth, const hittable& world) const {
+
+		if (depth <= 0)
+			return colour(0, 0, 0);
+
 		hit_record rec;
 
-		if (world.hit(r, interval(0, infinity), rec)) {
-			Vector3 direction = RandomOnHemisphere(rec.m_normal);
-			return 0.5 * ray_colour(Ray(rec.m_point, direction), world);
+		if (world.hit(r, interval(0.001, infinity), rec)) {
+			Ray scatter;
+			colour attenuation;
+			if (rec.m_material->scatter(r, rec, attenuation, scatter)) {
+				return attenuation * ray_colour(scatter, depth - 1, world);
+			}
+			return colour(0, 0, 0);
 		}
 
 		Vector3 unit_direction = UnitVector(r.direction());
