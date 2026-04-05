@@ -1,0 +1,5 @@
+C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/Raytracer/CMakeFiles/Raytracer.dir
+C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/Raytracer/CMakeFiles/edit_cache.dir
+C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/Raytracer/CMakeFiles/rebuild_cache.dir
