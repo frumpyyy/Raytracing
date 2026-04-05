@@ -1,7 +1,6 @@
 #pragma once
 
-#include <cmath>
-#include <iostream>
+#include "MathConstants.h"
 
 class Vector3 {
 public:
@@ -35,6 +34,12 @@ public:
 	//vector unique functions
 	double Length() const;
 	double LengthSquared() const;
+
+	//static Vector3 random() {
+	//	return Vector3(random_double())
+	//}
+	//static Vector3 random(double min, double max);
+
 };
 
 //tutorial states that this is an alias for vector3 that is useful for gemoetry clarity within the codebase

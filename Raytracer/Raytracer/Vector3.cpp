@@ -49,4 +49,3 @@ double Vector3::Length() const {
 double Vector3::LengthSquared() const {
 	return i[0] * i[0] + i[1] * i[1] + i[2] * i[2];
 }
-

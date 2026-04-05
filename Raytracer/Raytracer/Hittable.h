@@ -3,8 +3,12 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "MathConstants.h"
 
+#include "Interval.h"
+
+#include "Ray.h"
+
+#include "Vector3.h"
 
 class hit_record {
 public:

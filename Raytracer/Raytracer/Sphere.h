@@ -5,7 +5,12 @@
 
 #include "Hittable.h"
 
-#include "MathConstants.h"
+#include "Interval.h"
+
+#include "Ray.h"
+
+#include "Vector3.h"
+
 
 class sphere : public hittable {
 public:

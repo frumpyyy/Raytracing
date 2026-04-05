@@ -5,7 +5,9 @@
 
 #include "Hittable.h"
 
-#include "MathConstants.h"
+#include "Interval.h"
+
+#include "Ray.h"
 
 #include <vector>
 
