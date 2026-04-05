@@ -101,12 +101,10 @@ inline Vector3 UnitVector(const Vector3& v) {
 }
 
 inline Vector3 RandomUnitVector() {
-	while (true) {
-		Vector3 point = Vector3::random(-1, 1);
-		double len = point.LengthSquared();
-		if (1e-160 < len && len <= 1)
-			return point / std::sqrt(len);
-	}
+	double theta = random_double(0, 2 * pi);
+	double z = random_double(-1, 1);
+	double r = std::sqrt(1.0 - z * z);
+	return Vector3(r * std::cos(theta), r * std::sin(theta), z);
 }
 
 inline Vector3 RandomOnHemisphere(const Vector3& normal) {

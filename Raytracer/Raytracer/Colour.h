@@ -9,6 +9,8 @@
 
 #include <iostream>
 
+#include <string>
+
 using colour = Vector3;
 
 inline double linearToGamma(double linearComponent) {
@@ -18,7 +20,7 @@ inline double linearToGamma(double linearComponent) {
 	return 0;
 }
 
-void WriteColour(std::ostream& out, const colour& pixel_colour) {
+inline void WriteColour(std::string& out, const colour& pixel_colour) {
 	auto r = pixel_colour.x();
 	auto g = pixel_colour.y();
 	auto b = pixel_colour.z();
@@ -33,7 +35,9 @@ void WriteColour(std::ostream& out, const colour& pixel_colour) {
 	int gB = int(256 * intensity.clamp(g));
 	int bB = int(256 * intensity.clamp(b));
 
-	out << rB << ' ' << gB << ' ' << bB << '\n';
+	char buf[32];
+	int len = std::snprintf(buf, sizeof(buf), "%d %d %d\n", rB, gB, bB);
+	out.append(buf, len);
 }
 
 
