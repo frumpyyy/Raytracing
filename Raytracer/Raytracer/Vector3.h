@@ -120,3 +120,18 @@ inline Vector3 RandomOnHemisphere(const Vector3& normal) {
 inline Vector3 reflect(const Vector3& v, const Vector3& n) {
 	return v - 2 * Dot(v, n) * n;
 }
+
+inline Vector3 refract(const Vector3& uv, const Vector3& n, double etai_over_etat) {
+	auto cos_theta = std::fmin(Dot(-uv, n), 1.0);
+	Vector3 r_out_perp = etai_over_etat * (uv + cos_theta * n);
+	Vector3 r_out_parallel = -std::sqrt(std::fabs(1.0 - r_out_perp.LengthSquared())) * n;
+	return r_out_perp + r_out_parallel;
+}
+
+inline Vector3 random_in_unit_disk() {
+	while (true) {
+		auto p = Vector3(random_double(-1, 1), random_double(-1, 1), 0);
+		if (p.LengthSquared() < 1)
+			return p;
+	}
+}
