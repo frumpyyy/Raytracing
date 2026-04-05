@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/naths/source/repos/Raytracer/Raytracer
+# Install script for directory: C:/Users/naths/Documents/GitHub/Raytracing/Raytracer/Raytracer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/naths/source/repos/Raytracer/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/naths/Documents/GitHub/Raytracing/Raytracer/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/Raytracer/install_local_manifest.txt"
+  file(WRITE "C:/Users/naths/Documents/GitHub/Raytracing/Raytracer/out/build/x64-debug/Raytracer/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

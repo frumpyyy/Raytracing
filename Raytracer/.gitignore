@@ -1,0 +1,51 @@
+# CMake build directories
+out/
+build/
+cmake_build_debug/
+cmake_build_release/
+
+# Visual Studio cache/build files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+
+# Compiled object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug symbols
+*.pdb
+*.dSYM/
+
+# CMake cache
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+Makefile
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dependencies (if you use vcpkg or conan)
+vcpkg_installed/
+conan/
+
+# Output files
+*.ppm
+*.png
+*.jpg
+output.*

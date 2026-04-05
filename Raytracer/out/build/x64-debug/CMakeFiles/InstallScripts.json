@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/cmake_install.cmake",
-		"C:/Users/naths/source/repos/Raytracer/out/build/x64-debug/Raytracer/cmake_install.cmake"
+		"C:/Users/naths/Documents/GitHub/Raytracing/Raytracer/out/build/x64-debug/cmake_install.cmake",
+		"C:/Users/naths/Documents/GitHub/Raytracing/Raytracer/out/build/x64-debug/Raytracer/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
