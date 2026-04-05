@@ -36,3 +36,53 @@ public:
 	double Length() const;
 	double LengthSquared() const;
 };
+
+//tutorial states that this is an alias for vector3 that is useful for gemoetry clarity within the codebase
+using point3 = Vector3;
+
+
+//Vector utility functions
+
+inline std::ostream& operator<<(std::ostream& out, const Vector3& v) {
+	return out << v.i[0] << ' ' << v.i[1] << ' ' << v.i[2];
+}
+
+inline Vector3 operator+(const Vector3& u, const Vector3& v) {
+	return Vector3(u.i[0] + v.i[0], u.i[1] + v.i[1], u.i[2] + v.i[2]);
+}
+
+inline Vector3 operator-(const Vector3& u, const Vector3& v) {
+	return Vector3(u.i[0] - v.i[0], u.i[1] - v.i[1], u.i[2] - v.i[2]);
+}
+
+inline Vector3 operator*(const Vector3& u, const Vector3& v) {
+	return Vector3(u.i[0] * v.i[0], u.i[1] * v.i[1], u.i[2] * v.i[2]);
+}
+
+inline Vector3 operator*(double t, const Vector3& v) {
+	return Vector3(t * v.i[0], t * v.i[1], t * v.i[2]);
+}
+
+inline Vector3 operator*(const Vector3& v, double t) {
+	return t * v;
+}
+
+inline Vector3 operator/(const Vector3& v, double t) {
+	return (1 / t) * v;
+}
+
+inline double Dot(const Vector3& u, const Vector3& v) {
+	return u.i[0] * v.i[0]
+		+ u.i[1] * v.i[1]
+		+ u.i[2] * v.i[2];
+}
+
+inline Vector3 Cross(const Vector3& u, const Vector3& v) {
+	return Vector3(u.i[1] * v.i[2] - u.i[2] * v.i[1],
+		u.i[2] * v.i[0] - u.i[0] * v.i[2],
+		u.i[0] * v.i[1] - u.i[1] * v.i[0]);
+}
+
+inline Vector3 UnitVector(const Vector3& v) {
+	return v / v.Length();
+}

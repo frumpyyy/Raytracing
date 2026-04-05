@@ -1,6 +1,10 @@
 # ninja log v6
 9	503	7970990286793480	Raytracer/CMakeFiles/Raytracer.dir/Raytracer.cpp.obj	ae270bc33c126b8d
-502	694	7970978809294676	Raytracer/Raytracer.exe	881b88b90d720984
+494	599	7970991942872110	Raytracer/Raytracer.exe	1a02cabfecfdd62c
 2	11	7970990286558242	clean	5345ca6175c2c29c
 3	494	7970991937955687	Raytracer/CMakeFiles/Raytracer.dir/Vector3.cpp.obj	c228afc041295734
-494	599	7970991942872110	Raytracer/Raytracer.exe	1a02cabfecfdd62c
+5	781	7971005239525563	Raytracer/CMakeFiles/Raytracer.dir/Raytracer.cpp.obj	ae270bc33c126b8d
+9	784	7971005239571561	Raytracer/CMakeFiles/Raytracer.dir/Vector3.cpp.obj	c228afc041295734
+19	580	7971006499792465	Raytracer/CMakeFiles/Raytracer.dir/Vector3.cpp.obj	c228afc041295734
+14	582	7971006499742117	Raytracer/CMakeFiles/Raytracer.dir/Raytracer.cpp.obj	ae270bc33c126b8d
+582	698	7971006505423786	Raytracer/Raytracer.exe	1a02cabfecfdd62c
