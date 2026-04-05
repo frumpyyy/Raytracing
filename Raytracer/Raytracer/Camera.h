@@ -24,7 +24,7 @@ public:
 				colour pixel_color(0, 0, 0);
 				for (int sample = 0; sample < samples_per_pixel; sample++) {
 					Ray r = get_ray(i, j);
-					pixel_color += ray_color(r, world);
+					pixel_color += ray_colour(r, world);
 				}
 				WriteColour(std::cout, pixel_samples_scale * pixel_color);
 			}
@@ -81,11 +81,12 @@ private:
 		return Vector3(random_double() - 0.5, random_double() - 0.5, 0);
 	}
 
-	colour ray_color(const Ray& r, const hittable& world) const {
+	colour ray_colour(const Ray& r, const hittable& world) const {
 		hit_record rec;
 
 		if (world.hit(r, interval(0, infinity), rec)) {
-			return 0.5 * (rec.m_normal + colour(1, 1, 1));
+			Vector3 direction = RandomOnHemisphere(rec.m_normal);
+			return 0.5 * ray_colour(Ray(rec.m_point, direction), world);
 		}
 
 		Vector3 unit_direction = UnitVector(r.direction());

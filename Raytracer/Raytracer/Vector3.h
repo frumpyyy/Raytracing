@@ -35,10 +35,13 @@ public:
 	double Length() const;
 	double LengthSquared() const;
 
-	//static Vector3 random() {
-	//	return Vector3(random_double())
-	//}
-	//static Vector3 random(double min, double max);
+	static Vector3 random() {
+		return Vector3(random_double(), random_double(), random_double());
+	}
+
+	static Vector3 random(double min, double max) {
+		return Vector3(random_double(min, max), random_double(min, max), random_double(min, max));
+	}
 
 };
 
@@ -90,4 +93,21 @@ inline Vector3 Cross(const Vector3& u, const Vector3& v) {
 
 inline Vector3 UnitVector(const Vector3& v) {
 	return v / v.Length();
+}
+
+inline Vector3 RandomUnitVector() {
+	while (true) {
+		Vector3 point = Vector3::random(-1, 1);
+		double len = point.LengthSquared();
+		if (1e-160 < len && len <= 1)
+			return point / std::sqrt(len);
+	}
+}
+
+inline Vector3 RandomOnHemisphere(const Vector3& normal) {
+	Vector3 onUnitSphere = RandomUnitVector();
+	if (Dot(onUnitSphere, normal) > 0.0)
+		return onUnitSphere;
+	else
+		return -onUnitSphere;
 }
